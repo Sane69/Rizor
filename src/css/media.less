@@ -1,0 +1,108 @@
+@media screen and (max-width: 1300px) {
+    .design {
+        height: 2200px;
+        &__main {
+            display: block;
+            margin: 0 auto;
+            max-width: fit-content;
+
+            &--color {
+                padding-top: 70px;
+                padding-left: 50px;
+                &_info p {
+                    font-size: 14px;
+                }
+                &_info-select a {
+                    margin-right: 5px;
+                }
+                &_info-line {
+                    right: 43%;
+                }
+            }
+            &--plus {
+                margin: 50px 0 0 50px;
+            }
+            &--title {
+                transform: rotate(0);
+                text-align: center;
+                margin-left: 0;
+                & p {
+                    font-size: 110px;
+                }
+            }
+        }
+
+        &__nav {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__menu {
+        &--nav {
+            display: none;
+        }
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    .hovertrax__main--video_lin {
+        display: none;
+    }
+    .catalog {
+        background-size: cover;
+        background-position: left; 
+        &__main {
+            padding-top: 110px;
+            & p {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .hovertrax {
+        background-size: cover;
+        background-position: right;
+        &__nav {
+            display: none;
+        }
+    
+        &__main h1 {
+            font-size: 30px;
+            width: auto;
+        }
+    }
+    .mode {
+        background-size: cover;
+        background-position: right;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mode {
+        height: 1000px;
+        &__info--speed {
+            display: block;
+        }
+        &__info--more {
+            font-size: 20px;
+        }
+        &__info--first {
+            font-size: 13px;
+        }
+        &__info--second{
+            font-size: 13px;
+        }
+        &__info--video {
+            justify-content: flex-start;
+            &_lin {
+                display: none; 
+            }
+        }
+    }
+}
